@@ -1,28 +1,26 @@
 export const french = {
   language: "french",
 
-  indexTitle: "Eskival 207",
-  metaDescription:
-    "Location appartement Val Thorens 6 pers 51m², Résidance l'Eskival, Place Caron, Val Thorens",
+  indexTitle: "Florent Herbey - Renovations",
+  metaDescription: "",
   metaKeywords: "French  keywords",
 
-  introText: "Location appartement Val Thorens 6 pers 51m²",
-  introLocation: "Résidance l'Eskival, Place Caron, Val Thorens",
+  call: "Appeler immédiatement",
+  devis: "Demander un devis",
 
-  beds: "lits",
-  person: "personnes",
-  bathroom: "Salle de bains",
+  introText: "Traveaux et renovations",
+  introLocation: "Val Thorens, Les Belleville",
 
   description1:
-    "Exposé plein sud et situé au centre de la station de Val Thorens, place Caron, cet appartement vous propose:",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius lacus et orci faucibus fringilla. Sed leo neque, aliquet nec ipsum sed, aliquet euismod orci. Cras auctor varius quam, vitae venenatis mauris laoreet vel. Nunc id dolor rhoncus, vestibulum odio vel, egestas ipsum. Proin sit amet fermentum lorem, et fringilla enim.",
   descriptionLi1: "2 chambres avec lit double 160cm x 200cm",
   descriptionLi2: "1 coin montagne avec lit superposé",
   descriptionLi3: "1 canapé lit",
   descriptionLi4: "Wifi",
   description2:
-    "Equipement de la cuisine : plaques vitro céramique, four, four micro-onde, lave vaisselle, cafetière, bouilloire ainsi que tout le nécessaire pour cuisiner.",
+    "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent in augue ut ex ornare pulvinar in at urna. Fusce quis urna arcu. ",
   description3:
-    "Le sol, l’éclairage et la salle de bain ont été rénovés récemment. Grâce à son emplacement central dans Val Thorens, vous trouverez à moins de 200m : le centre sportif, la piscine, des supérettes, le bureau des remontées mécaniques pour vos forfaits de ski, le cinéma, des bars, des restaurants et des magasins de ski pour la location de votre matériel.",
+    "Fusce ornare commodo mauris ut dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vel pharetra orci. Proin pharetra auctor lobortis. Cras a purus accumsan, consectetur ipsum ut, fermentum odio. Sed egestas cursus nibh sit amet mattis. Vestibulum et velit velit. Sed aliquet enim non pulvinar dignissim.",
 
   contact: "Contactez nous pour plus des informations!",
   name: "Name",

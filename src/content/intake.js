@@ -1,16 +1,16 @@
 const intakeInfo = {
-  companyName: "Eskival 207",
+  companyName: "Florent Herbey",
   companyAddress: "Val Thorens",
   domainName: "www.template.com",
-  contactEmail: "eskival207@gmail.com",
+  contactEmail: "",
 
-  siteName: "Esival 207",
+  siteName: "Florent Herbey",
   highlightColor: "#ff00ff",
 
   taxNumber: "131 000 000 ",
 
   location: "Val Thorens",
-  mainActivity: "Appartement en Location",
+  mainActivity: "Renovations",
 };
 
 export default intakeInfo;

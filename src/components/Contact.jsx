@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "../styles/Contact.css";
 
@@ -10,8 +10,24 @@ const Contact = (props) => {
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollImages);
+
+    let component4 = document.getElementById("component4");
+
+    function scrollImages() {
+      let positionComponent4 = component4.getBoundingClientRect();
+
+      let scrollY = window.innerHeight;
+
+      if (positionComponent4.y < scrollY) {
+        component4.classList.add("slide-from-right");
+      }
+    }
+  });
   return (
-    <div className="contact" id="contact">
+    <div className="contact component-right" id="component4">
       <div className="header-placeholder" />
 
       <h3>{languageToUse.contact}</h3>

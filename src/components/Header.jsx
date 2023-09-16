@@ -23,8 +23,11 @@ const Header = (props) => {
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   return (
-    <div className="header">
-      ESKIVAL 207
+    <div className="header header-background">
+      <p className="header-title">
+        FLORENT
+        <br /> HERBEY
+      </p>
       <div className="hidden-desktop">
         <Burger
           language={language}
@@ -34,11 +37,11 @@ const Header = (props) => {
       </div>
       <ul className="links hidden-mobile">
         <li>
-          <Link to="/" className="nav-link">
-            Welcome
-          </Link>
+          <a href="tel:0033600000000" className="nav-link">
+            {languageToUse.call}
+          </a>
           <Link to="/#contact" className="nav-link">
-            Contact
+            {languageToUse.devis}
           </Link>
         </li>
 

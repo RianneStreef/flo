@@ -1,9 +1,9 @@
 :root {
   --color-background-light: #fff;
-  --color-background-dark: #060f29;
-  --color-text-dark: #060f29;
+  --color-background-dark: #241b12;
+  --color-text-dark: #241b12;
   --color-text-light: #fff;
-  --color-highlight: #f76a04;
+  --color-highlight: #423839;
   --padding-mobile: 20px;
   --padding-desktop: 80px;
   --margin-mobile: 10px;
@@ -90,9 +90,9 @@ p {
   margin: 10px;
 }
 
-.header-placeholder {
+/* .header-placeholder {
   height: 60px;
-}
+} */
 
 .hidden {
   display: none;
@@ -107,10 +107,28 @@ p {
 
 .custom-button {
   background-color: var(--color-background-dark);
-  color: var(--color-highlight);
+  color: var(--color-text-light);
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
+}
+
+.component-left {
+  margin: 0 0 0 -500px;
+}
+
+.component-right {
+  margin: 10px 10px 10px 500px;
+}
+
+.slide-from-left {
+  margin: 0;
+  transition: margin 800ms cubic-bezier(0, 1, 1, 1);
+}
+
+.slide-from-right {
+  margin: 10px 10px 10px 0;
+  transition: margin 800ms cubic-bezier(0, 1, 1, 1);
 }
 
 @media only screen and (min-width: 768px) {

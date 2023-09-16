@@ -1,6 +1,7 @@
 .header {
   position: fixed;
-  background-color: var(--color-background-light);
+  background-color: transparent;
+  color: var(--color-text-light);
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -9,9 +10,19 @@
   padding: 0 20px;
 }
 
+.header-background {
+  background-color: rgb(36, 27, 18, 0.8);
+}
+
+.header-title {
+  font-size: 30px;
+  margin: 5px 10px;
+  text-shadow: 1px 1px 2px black;
+}
+
 .links {
   display: flex;
-  padding-right: 30px;
+  padding-right: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -26,7 +37,7 @@
 }
 
 .nav-link {
-  color: var(--color-text-dark);
+  color: var(--color-text-light);
   text-decoration: none;
   margin: 10px;
 }
@@ -36,11 +47,11 @@
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid var(--color-text-dark);
+  border-bottom: 1px solid var(--color-text-light);
 }
 
 .nav-link:visited {
-  color: var(--color-text-dark);
+  color: var(--color-text-light);
 }
 
 .header ul {
