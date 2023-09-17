@@ -24,10 +24,7 @@ const Header = (props) => {
   language === "french" ? (languageToUse = content.french) : null;
   return (
     <div className="header header-background">
-      <p className="header-title">
-        FLORENT
-        <br /> HERBEY
-      </p>
+      <p className="header-title">AQUA RÉEL</p>
       <div className="hidden-desktop">
         <Burger
           language={language}

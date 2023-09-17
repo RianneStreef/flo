@@ -1,7 +1,7 @@
 :root {
   --color-background-light: #fff;
-  --color-background-dark: #241b12;
-  --color-text-dark: #241b12;
+  --color-background-dark: #696b66;
+  --color-text-dark: #696b66;
   --color-text-light: #fff;
   --color-highlight: #423839;
   --padding-mobile: 20px;
@@ -90,9 +90,13 @@ p {
   margin: 10px;
 }
 
-/* .header-placeholder {
+.header-placeholder {
   height: 60px;
-} */
+}
+
+.header-placeholder-background {
+  background-color: var(--color-background-dark);
+}
 
 .hidden {
   display: none;
@@ -129,6 +133,11 @@ p {
 .slide-from-right {
   margin: 10px 10px 10px 0;
   transition: margin 800ms cubic-bezier(0, 1, 1, 1);
+}
+
+.remove-margin-right {
+  margin-right: 0;
+  transition: margin-right 800ms cubic-bezier(0, 1, 1, 1);
 }
 
 @media only screen and (min-width: 768px) {

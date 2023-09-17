@@ -1,7 +1,27 @@
-.hero-container {
+.hero {
   width: 100vw;
-  height: 65vh;
-  background-image: url(../images/hero.jpg);
-  background-position: center;
-  background-size: cover;
+  min-height: 50vw;
+  background-color: var(--color-background-dark);
+}
+
+.hero-image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-image {
+    width: 40%;
+    height: 40%;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .hero-container > * {
+    width: 40%;
+  }
 }

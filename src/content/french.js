@@ -8,7 +8,7 @@ export const french = {
   call: "Appeler immédiatement",
   devis: "Demander un devis",
 
-  introText: "Traveaux et renovations",
+  introText: "Travaux et renovations",
   introLocation: "Val Thorens, Les Belleville",
 
   description1:

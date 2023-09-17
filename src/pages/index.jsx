@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import "../styles/global.css";
 
 import Hero from "../components/Hero";
-import Intro from "../components/Intro";
 import Images from "../components/Images";
 import Description from "../components/Description";
 import Contact from "../components/Contact";
@@ -30,9 +29,8 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
-      <div className="header-placeholder" />
-      <Hero />
-      <Intro language={language} />
+      <div className="header-placeholder header-placeholder-background" />
+      <Hero language={language} />
       <Images />
       <Description language={language} />
       <Contact />

@@ -16,12 +16,12 @@ const Intro = (props) => {
     let component1 = document.getElementById("component1");
 
     setTimeout(() => {
-      component1.classList.add("slide-from-left");
+      component1.classList.add("slide-from-right");
     }, 500);
   });
 
   return (
-    <div className="intro component-left" id="component1">
+    <div className="intro component-right" id="component1">
       <h1>{languageToUse.introText} </h1>
       <h2>{languageToUse.introLocation}</h2>
     </div>
